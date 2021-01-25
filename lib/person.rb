@@ -1,3 +1,4 @@
+#require 'pry'
 class Person
     def talk
         puts "Hello World!"
@@ -7,3 +8,4 @@ class Person
         puts "The Person is walking"
     end
 end
+#binding.pry
